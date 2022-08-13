@@ -1,0 +1,16 @@
+{
+  "name": "talk-about-monorepo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangdaoyuan/talk-about-monorepo.git"
+  },
+  "scripts": {
+    "dev": "pnpm run --filter=presentation dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
