@@ -1,28 +1,29 @@
 ---
-# try also 'default' to start simple
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
 class: 'text-center'
-# https://sli.dev/custom/highlighters.html
 highlighter: shiki
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-src: ./src/chapter1.md
+src: ./src/welcome.md
 ---
 
+<!-- what is monorepo -->
 ---
-src: ./src/chapter2.md
+src: ./src/what-is-monorepo.md
 ---
 
+<!-- what is monorepo (next)-->
 ---
-src: ./src/chapter3.md
+src: ./src/what-is-monorepo2.md
+---
+
+<!-- monorepo !== monolith -->
+---
+src: ./src/monorepo-vs-monolith.md
+---
+
+<!-- why monorepo -->
+---
+src: ./src/why-monorepo.md
 ---
 
 ---
@@ -31,30 +32,42 @@ layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
+<!-- chapter4 monorepo vs polyRepo -->
 ---
 src: ./src/chapter5.md
 ---
 
+<!-- chapter5 monorepo features -->
 ---
 src: ./src/chapter6.md
 class: px-20
 ---
 
+<!-- chapter6 monorepo tools -->
 ---
 src: ./src/chapter7.md
 preload: false
 ---
 
+
+<!-- chapter7 monorepo and workspace -->
 ---
 src: ./src/chapter8.md
 ---
 
+<!-- My Personal Workspace Practice -->
 ---
 src: ./src/chapter9.md
 ---
 
+<!-- Thanks -->
 ---
 src: ./src/chapter10.md
 layout: center
 class: text-center
+---
+
+<!-- References -->
+---
+src: ./src/chapter11.md
 ---

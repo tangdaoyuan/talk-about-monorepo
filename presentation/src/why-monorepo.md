@@ -1,4 +1,4 @@
-# Navigation
+# Why a Monorepo
 
 Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
 
