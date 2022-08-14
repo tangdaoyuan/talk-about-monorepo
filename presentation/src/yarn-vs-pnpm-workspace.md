@@ -24,7 +24,7 @@ In Pnpm official docs:
     <img class="h-full" src="/pnpm-benchmark.svg" />
   </div>
   <div v-click="2" class="w-1/2 h-full text-center flex items-center justify-center" >
-    <span class="text-6xl">Pnpm > Yarn</span>
+    <span class="text-6xl">Pnpm > Yarn 1</span>
   </div>
 </div>
 

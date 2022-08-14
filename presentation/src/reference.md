@@ -10,3 +10,4 @@
 * [yarn features about workspaces](https://classic.yarnpkg.com/lang/en/docs/workspaces/)
 * [pnpm features about workspaces](https://pnpm.io/workspaces)
 * [pnpm and yarn benchmark](https://yarnpkg.com/benchmarks)
+* [Lerna](https://lerna.js.org/docs/introduction)

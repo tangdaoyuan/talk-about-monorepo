@@ -61,6 +61,11 @@ src: ./src/yarn-vs-pnpm-workspace.md
 clicks: 2
 ---
 
+<!-- lerna is optional -->
+---
+src: ./src/lerna-is-optional.md
+---
+
 <!-- Thanks -->
 ---
 src: ./src/thanks.md
