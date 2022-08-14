@@ -50,6 +50,17 @@ src: ./src/monorepo-tools-compare.md
 src: ./src/who-use-monorepo.md
 ---
 
+<!-- workspace -->
+---
+src: ./src/workspace.md
+---
+
+<!-- yarn workspace vs pnpm workspace -->
+---
+src: ./src/yarn-vs-pnpm-workspace.md
+clicks: 2
+---
+
 <!-- Thanks -->
 ---
 src: ./src/thanks.md

@@ -5,7 +5,7 @@
 | **Fast** | Bazel|  Gradle | Lage | Nx | Pants | Rush | Lerna | Turborepo|
 |-------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | Local computation caching | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
-| Local task orchestration | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Local task orchestration | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ |
 | Distributed computation caching | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌| ✅ |
 | Distributed task execution | ✅ | ⚠️ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 | Transparent remote execution | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
