@@ -1,2 +1,4 @@
 packages:
   - presentation
+  - components
+  - playground

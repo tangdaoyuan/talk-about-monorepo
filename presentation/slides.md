@@ -21,53 +21,43 @@ src: ./src/what-is-monorepo2.md
 src: ./src/monorepo-vs-monolith.md
 ---
 
-<!-- why monorepo -->
+<!-- monorepo vs polyRepo -->
 ---
 src: ./src/why-monorepo.md
----
-
----
-src: ./src/chapter4.md
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://monorepo.tools/images/polyrepo-practice.svg
+
 ---
 
-<!-- chapter4 monorepo vs polyRepo -->
+<!-- why monorepo -->
 ---
-src: ./src/chapter5.md
----
-
-<!-- chapter5 monorepo features -->
----
-src: ./src/chapter6.md
-class: px-20
+src: ./src/why-monorepo2.md
 ---
 
-<!-- chapter6 monorepo tools -->
+<!-- monorepo tools -->
+
 ---
-src: ./src/chapter7.md
-preload: false
+src: ./src/monorepo-tools.md
 ---
 
-
-<!-- chapter7 monorepo and workspace -->
 ---
-src: ./src/chapter8.md
+src: ./src/monorepo-tools-compare.md
 ---
 
-<!-- My Personal Workspace Practice -->
+<!-- who use monorepo -->
+
 ---
-src: ./src/chapter9.md
+src: ./src/who-use-monorepo.md
 ---
 
 <!-- Thanks -->
 ---
-src: ./src/chapter10.md
+src: ./src/thanks.md
 layout: center
 class: text-center
 ---
 
 <!-- References -->
 ---
-src: ./src/chapter11.md
+src: ./src/reference.md
 ---

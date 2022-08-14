@@ -1,5 +1,5 @@
 {
-  "name": "talk-about-monorepo",
+  "name": "@tedy-talk/talk-about-monorepo",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,8 @@
     "url": "git+https://github.com/tangdaoyuan/talk-about-monorepo.git"
   },
   "scripts": {
-    "dev": "pnpm run --filter=presentation dev"
+    "dev": "pnpm run --filter=presentation dev",
+    "build:components": "pnpm run --filter=components build"
   },
   "keywords": [],
   "author": "",

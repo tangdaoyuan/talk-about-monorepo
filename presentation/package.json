@@ -1,5 +1,5 @@
 {
-  "name": "presentation",
+  "name": "@tedy-talk/presentation",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -17,6 +17,7 @@
   "dependencies": {
     "@slidev/cli": "^0.35.4",
     "@slidev/theme-default": "^0.21.2",
-    "@slidev/theme-seriph": "^0.21.3"
+    "@slidev/theme-seriph": "^0.21.3",
+    "@tedy-talk/monorepo-components": "workspace: *"
   }
 }

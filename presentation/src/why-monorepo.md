@@ -1,20 +1,28 @@
 # Why a Monorepo
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+## Polyrepo
 
-### Keyboard Shortcuts
+<br/>
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd>| previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+> A polyrepo is the current standard way of developing applications: a repo for each team, application, or project. And it's common that each repo has a single build artifact, and simple build pipeline.
 
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+<br/>
+
+<v-click>
+
+### Drawbacks
+
+<br/>
+
+* 😢 Cumbersome code sharing
+* 😢 Significant code duplication
+* 😢 Costly cross-repo changes to shared libraries and consumers
+* 😢 Inconsistent tooling
+
+</v-click>
+
+<style>
+  div {
+    background-size: contain;
+  }
+</style>
