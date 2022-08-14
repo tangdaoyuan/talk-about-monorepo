@@ -1,18 +1,19 @@
 {
   "name": "@tedy-talk/monorepo-components",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": "./dist/index.mjs",
   "license": "MIT",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "watch": "tsup -w"
   },
   "keywords": [],
   "author": "Tedy",
   "peerDependencies": {
-    "vue":"^3.2.0"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "tsup": "^6.2.2",

@@ -9,9 +9,10 @@
   },
   "scripts": {
     "dev": "pnpm run --filter=presentation dev",
-    "build:components": "pnpm run --filter=components build"
+    "play": "pnpm run --filter=playground dev",
+    "build:components": "pnpm run --filter=@tedy-talk/monorepo-components build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tedy",
   "license": "MIT"
 }
