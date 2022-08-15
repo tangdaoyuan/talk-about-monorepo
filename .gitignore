@@ -80,3 +80,8 @@ dist
 *.lerna_backup
 
 .DS_Store
+
+.turbo
+build/**
+dist/**
+.next/**

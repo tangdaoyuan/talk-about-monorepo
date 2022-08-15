@@ -10,10 +10,14 @@
   "scripts": {
     "dev": "pnpm run --filter=presentation dev",
     "play": "pnpm run --filter=playground dev",
-    "build:presentation":"pnpm run --filter=presentation build",
+    "build": "turbo run build",
+    "build:presentation": "pnpm run --filter=presentation build",
     "build:components": "pnpm run --filter=@tedy-talk/monorepo-components build"
   },
   "keywords": [],
   "author": "Tedy",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^1.4.3"
+  }
 }
