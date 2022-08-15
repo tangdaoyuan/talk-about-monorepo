@@ -9,7 +9,10 @@
     "directory": "presentation"
   },
   "scripts": {
-    "dev": "slidev"
+    "dev": "slidev",
+    "build": "slidev build",
+    "preview": "vite preview",
+    "export":"slidev export --dark"
   },
   "keywords": [],
   "author": "",

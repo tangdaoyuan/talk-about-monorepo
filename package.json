@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "pnpm run --filter=presentation dev",
     "play": "pnpm run --filter=playground dev",
+    "build:presentation":"pnpm run --filter=presentation build",
     "build:components": "pnpm run --filter=@tedy-talk/monorepo-components build"
   },
   "keywords": [],
