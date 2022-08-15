@@ -8,8 +8,8 @@
     "url": "git+https://github.com/tangdaoyuan/talk-about-monorepo.git"
   },
   "scripts": {
-    "dev": "pnpm run --filter=presentation dev",
-    "play": "pnpm run --filter=playground dev",
+    "dev": "turbo run --filter=presentation dev",
+    "play": "turbo run --filter=playground dev --force",
     "build": "turbo run build",
     "build:presentation": "pnpm run --filter=presentation build",
     "build:components": "pnpm run --filter=@tedy-talk/monorepo-components build"

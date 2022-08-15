@@ -9,6 +9,20 @@
         "dist/**",
         "build/**"
       ]
+    },
+    "dev": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": false,
+      "outputs": []
+    },
+    "play": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": false,
+      "outputs": []
     }
   }
 }

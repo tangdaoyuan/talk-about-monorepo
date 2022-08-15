@@ -8,7 +8,7 @@
 | Local task orchestration | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ |
 | Distributed computation caching | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌| ✅ |
 | Distributed task execution | ✅ | ⚠️ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
-| Transparent remote execution | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Transparent remote execution | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ⚠️ |
 | Detecting affected projects/packages | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ |✅ | ✅ |
 
 </div>
