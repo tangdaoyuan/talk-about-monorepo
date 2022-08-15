@@ -1,10 +1,11 @@
 
 import { defineConfig } from 'tsup'
+import vue from 'esbuild-plugin-vue'
 
 export default defineConfig({
-  entry: ['src/index.ts'],
+  entry: ['src/index.vue'],
   sourcemap: true,
   clean: true,
-  dts: true,
   format: ['esm'],
+  esbuildPlugins: [vue()],
 })

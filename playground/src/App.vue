@@ -1,5 +1,6 @@
 <script lang="ts" setup>
-import Hello from '@tedy-talk/monorepo-components'
+import HelloWorldComponent from '@tedy-talk/monorepo-components'
+import '@tedy-talk/monorepo-components/dist/index.css'
 </script>
 
 <template>
@@ -11,7 +12,7 @@ import Hello from '@tedy-talk/monorepo-components'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <Hello msg="Now, " />
+  <HelloWorldComponent msg="Now, " />
 </template>
 
 <style scoped>
@@ -20,9 +21,11 @@ import Hello from '@tedy-talk/monorepo-components'
   padding: 1.5em;
   will-change: filter;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }

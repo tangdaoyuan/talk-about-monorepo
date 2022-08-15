@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: /background.jpeg
 class: 'text-center'
 highlighter: shiki
 src: ./src/welcome.md
@@ -65,6 +65,12 @@ clicks: 2
 ---
 src: ./src/lerna-is-optional.md
 ---
+
+<!-- HelloWorld Component -->
+---
+src: ./src/component.md
+---
+
 
 <!-- Thanks -->
 ---
