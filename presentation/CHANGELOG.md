@@ -1,5 +1,11 @@
 # @tedy-talk/presentation
 
+## 1.0.2
+
+### Patch Changes
+
+- Fixed private package
+
 ## 1.0.1
 
 ### Patch Changes

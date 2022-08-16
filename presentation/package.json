@@ -1,7 +1,8 @@
 {
   "name": "@tedy-talk/presentation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
+  "private": true,
   "main": "index.js",
   "repository": {
     "type": "git",
