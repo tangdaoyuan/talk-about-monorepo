@@ -10,12 +10,10 @@ importers:
 
   components:
     specifiers:
-      '@vue/compiler-sfc': ^3.2.37
       esbuild-plugin-vue: ^0.2.4
       tsup: ^6.2.2
       typescript: ^4.7.2
     devDependencies:
-      '@vue/compiler-sfc': 3.2.37
       esbuild-plugin-vue: 0.2.4
       tsup: 6.2.2_typescript@4.7.4
       typescript: 4.7.4
