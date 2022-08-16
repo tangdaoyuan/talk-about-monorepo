@@ -19,6 +19,7 @@
   "author": "Tedy",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.24.3",
     "turbo": "^1.4.3"
   }
 }

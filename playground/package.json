@@ -1,7 +1,7 @@
 {
   "name": "playground",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tedy-talk/monorepo-components": "workspace:0.0.1",
+    "@tedy-talk/monorepo-components": "workspace:1.0.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {

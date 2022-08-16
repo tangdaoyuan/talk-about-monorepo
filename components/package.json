@@ -1,6 +1,6 @@
 {
   "name": "@tedy-talk/monorepo-components",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "./dist/index.mjs",
   "exports": {
@@ -16,7 +16,9 @@
     "build": "tsup",
     "watch": "tsup --watch ./src"
   },
-  "keywords": ["components"],
+  "keywords": [
+    "components"
+  ],
   "author": "Tedy",
   "peerDependencies": {
     "vue": "^3.2.37"

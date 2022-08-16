@@ -1,6 +1,6 @@
 {
   "name": "@tedy-talk/presentation",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -12,7 +12,7 @@
     "dev": "slidev --open",
     "build": "slidev build",
     "preview": "vite preview",
-    "export":"slidev export --dark"
+    "export": "slidev export --dark"
   },
   "keywords": [],
   "author": "",
