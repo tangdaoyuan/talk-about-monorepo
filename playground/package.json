@@ -1,7 +1,7 @@
 {
   "name": "playground",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "files": [
     "dist"
@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tedy-talk/monorepo-components": "workspace:1.0.0",
+    "@tedy-talk/monorepo-components": "workspace:2.0.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {
