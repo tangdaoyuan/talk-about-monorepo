@@ -9,7 +9,7 @@
     "directory": "presentation"
   },
   "scripts": {
-    "dev": "slidev",
+    "dev": "slidev --open",
     "build": "slidev build",
     "preview": "vite preview",
     "export":"slidev export --dark"

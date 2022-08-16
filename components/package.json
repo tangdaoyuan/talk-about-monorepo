@@ -14,7 +14,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsup",
-    "watch": "tsup -w"
+    "watch": "tsup --watch ./src"
   },
   "keywords": ["components"],
   "author": "Tedy",
