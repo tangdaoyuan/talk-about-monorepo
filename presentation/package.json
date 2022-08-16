@@ -22,5 +22,8 @@
     "@slidev/theme-default": "^0.21.2",
     "@slidev/theme-seriph": "^0.21.3",
     "@tedy-talk/monorepo-components": "workspace: *"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
