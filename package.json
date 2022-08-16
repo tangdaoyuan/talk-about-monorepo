@@ -11,6 +11,7 @@
     "dev": "turbo run --filter=presentation dev",
     "play": "turbo run --filter=playground dev --force",
     "build": "turbo run build",
+    "build:graph": "turbo run build --graph=build-deps.png",
     "build:presentation": "pnpm run --filter=presentation build",
     "build:components": "pnpm run --filter=@tedy-talk/monorepo-components build"
   },

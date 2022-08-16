@@ -85,3 +85,6 @@ dist
 build/**
 dist/**
 .next/**
+
+
+build-deps.png
