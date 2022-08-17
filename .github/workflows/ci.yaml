@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 2
 
       - name: Setup PNPM
-      - uses: pnpm/action-setup@v2.2.2
+        uses: pnpm/action-setup@v2.2.2
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.3.0
@@ -47,7 +47,7 @@ jobs:
           fetch-depth: 2
 
       - name: Setup PNPM
-      - uses: pnpm/action-setup@v2.2.2
+        uses: pnpm/action-setup@v2.2.2
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.3.0
