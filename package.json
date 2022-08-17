@@ -4,6 +4,7 @@
   "private": true,
   "description": "",
   "main": "index.js",
+  "packageManager": "pnpm@7.5.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tangdaoyuan/talk-about-monorepo.git"
