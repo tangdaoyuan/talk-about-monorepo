@@ -1,5 +1,11 @@
 # @tedy-talk/presentation
 
+## 1.0.3
+
+### Patch Changes
+
+- 077cb43: docs: update references
+
 ## 1.0.2
 
 ### Patch Changes
