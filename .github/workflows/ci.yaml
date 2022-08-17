@@ -7,11 +7,8 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  buildStep1:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
+  buildUbuntu1:
+    runs-on: "ubuntu-latest"
 
     steps:
       - name: Check out code
@@ -34,11 +31,35 @@ jobs:
       - name: Build
         run: pnpm build
 
-  buildStep2:
+  buildUbuntu2:
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2.2.2
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.3.0
+        with:
+          node-version: 16.x
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        run: pnpm build
+
+  buildMixOS2:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macos-latest]
+        os: [macos-latest, ubuntu-latest]
 
     steps:
       - name: Check out code
