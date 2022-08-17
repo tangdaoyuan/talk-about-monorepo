@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  build-1:
+  buildStep1:
     name: Turbo Build and Test
     runs-on: ${{ matrix.os }}
     strategy:
@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: pnpm build
 
-  build-2:
+  buildStep2:
     name: Turbo Build and Test
     runs-on: ${{ matrix.os }}
     strategy:
