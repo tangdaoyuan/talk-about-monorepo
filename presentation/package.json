@@ -25,6 +25,6 @@
     "@tedy-talk/monorepo-components": "workspace: *"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
