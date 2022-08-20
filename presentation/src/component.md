@@ -1,17 +1,5 @@
-# Workspaces
+# Component
+
+The following `HelloWorld` Vue Component is from [Another workspace](https://github.com/tangdaoyuan/talk-about-monorepo/tree/main/components) :
 
 <HelloWorld />
-
-<style>
-  .slidev-page-10,
-  .slidev-layout.my-custom-layout {
-    .slidev-vclick-target {
-      transition: all 500ms ease;
-    }
-
-    .slidev-vclick-hidden {
-      transform:  scale(0);
-      position: absolute;
-    }
-  }
-</style>

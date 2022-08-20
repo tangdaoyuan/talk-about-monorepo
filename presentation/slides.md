@@ -66,11 +66,41 @@ clicks: 2
 src: ./src/lerna-is-optional.md
 ---
 
+<!-- Practice  -->
+---
+src: ./src/practice.md
+---
+
+<!-- Project structure -->
+---
+src: ./src/practice-structure.md
+---
+
 <!-- HelloWorld Component -->
 ---
 src: ./src/component.md
 ---
 
+<!-- TurboRepo -->
+---
+src: ./src/turborepo.md
+clicks: 3
+---
+
+<!-- Version and Publish -->
+---
+src: ./src/changeset.md
+---
+
+<!-- Code Owners -->
+---
+src: ./src/codeowners.md
+---
+
+<!-- Workflow -->
+---
+src: ./src/workflow.md
+---
 
 <!-- Thanks -->
 ---
