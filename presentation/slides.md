@@ -90,6 +90,8 @@ clicks: 3
 <!-- Version and Publish -->
 ---
 src: ./src/changeset.md
+layout: image-right
+image: /changeset-workflow.jpg
 ---
 
 <!-- Code Owners -->
