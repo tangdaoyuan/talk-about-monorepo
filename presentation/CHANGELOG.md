@@ -1,5 +1,11 @@
 # @tedy-talk/presentation
 
+## 1.1.0
+
+### Minor Changes
+
+- 2918941: feat: support chinese chapter
+
 ## 1.0.3
 
 ### Patch Changes
