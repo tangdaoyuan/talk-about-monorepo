@@ -9,6 +9,8 @@ src: ./src/welcome.md
 <!-- what is monorepo -->
 ---
 src: ./src/what-is-monorepo.md
+layout: image-right
+image: /monorepo.png
 ---
 
 <!-- what is monorepo (next)-->
@@ -66,11 +68,38 @@ clicks: 2
 src: ./src/lerna-is-optional.md
 ---
 
+<!-- Practice  -->
+---
+src: ./src/practice.md
+---
+
+<!-- Project structure -->
+---
+src: ./src/practice-structure.md
+---
+
 <!-- HelloWorld Component -->
 ---
 src: ./src/component.md
 ---
 
+<!-- TurboRepo -->
+---
+src: ./src/turborepo.md
+clicks: 3
+---
+
+<!-- Version and Publish -->
+---
+src: ./src/changeset.md
+layout: image-right
+image: /changeset-workflow.png
+---
+
+<!-- Code Owners -->
+---
+src: ./src/codeowners.md
+---
 
 <!-- Thanks -->
 ---
