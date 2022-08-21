@@ -4,7 +4,7 @@
 
 In Yarn official docs
 
-Yarn workspace compare to Lerna
+<i>Yarn workspace compare to Lerna: </i>
 
 > Yarn’s workspaces are the low-level primitives that tools like Lerna can (and do!) use. They will never try to support the high-level feature that Lerna offers, but by implementing the core logic of the resolution and linking steps inside Yarn itself we hope to enable new usages and improve performance.
 

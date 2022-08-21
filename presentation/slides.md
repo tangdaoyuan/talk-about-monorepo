@@ -9,6 +9,8 @@ src: ./src/welcome.md
 <!-- what is monorepo -->
 ---
 src: ./src/what-is-monorepo.md
+layout: image-right
+image: /monorepo.png
 ---
 
 <!-- what is monorepo (next)-->
@@ -91,17 +93,12 @@ clicks: 3
 ---
 src: ./src/changeset.md
 layout: image-right
-image: /changeset-workflow.jpg
+image: /changeset-workflow.png
 ---
 
 <!-- Code Owners -->
 ---
 src: ./src/codeowners.md
----
-
-<!-- Workflow -->
----
-src: ./src/workflow.md
 ---
 
 <!-- Thanks -->

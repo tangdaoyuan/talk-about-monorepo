@@ -14,3 +14,14 @@
 * [Changesets](https://github.com/changesets/changesets)
 * [Turborepo](https://turborepo.org/docs)
 * [Monorepos remote caching in Vercel](https://vercel.com/docs/concepts/monorepos/remote-caching)
+
+
+<style>
+  .slidev-layout li {
+    line-height: 1.5em
+  }
+  .slidev-layout a {
+    border-bottom: none;
+    font-size: 12px;
+  }
+</style>
