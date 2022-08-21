@@ -1,5 +1,11 @@
 # @tedy-talk/presentation
 
+## 1.1.1
+
+### Patch Changes
+
+- eac814b: chore: add favicon
+
 ## 1.1.0
 
 ### Minor Changes
