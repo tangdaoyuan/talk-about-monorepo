@@ -17,6 +17,13 @@
       "cache": false,
       "outputs": []
     },
+    "dev:zh": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": false,
+      "outputs": []
+    },
     "play": {
       "dependsOn": [
         "^build"
