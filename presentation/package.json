@@ -10,8 +10,11 @@
     "directory": "presentation"
   },
   "scripts": {
-    "dev": "slidev --open",
-    "build": "slidev build",
+    "dev": "slidev",
+    "dev:zh": "slidev slides-zh.md",
+    "build": "pnpm run build:en && pnpm run build:zh",
+    "build:en": "slidev build slides.md --out dist/en --base /en",
+    "build:zh": "slidev build slides-zh.md --out dist/zh --base /zh",
     "preview": "vite preview",
     "export": "slidev export --dark"
   },
