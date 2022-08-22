@@ -49,8 +49,16 @@ jobs:
   Deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3.3.0
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2.2.2
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.3.0
         with:
           node-version: 16.x
           cache: pnpm
@@ -61,6 +69,7 @@ jobs:
 
       - name: Build
         run: pnpm build
+
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
