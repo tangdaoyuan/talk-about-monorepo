@@ -1,5 +1,11 @@
 # @tedy-talk/presentation
 
+## 1.1.2
+
+### Patch Changes
+
+- 27141ed: chore(presentation): force dark mode
+
 ## 1.1.1
 
 ### Patch Changes
