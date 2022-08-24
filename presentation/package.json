@@ -9,8 +9,11 @@
     "url": "git+https://github.com/tangdaoyuan/talk-about-monorepo.git",
     "directory": "presentation"
   },
+  "slidev": {
+    "colorSchema": "dark"
+  },
   "scripts": {
-    "dev": "slidev",
+    "dev": "slidev --remote",
     "dev:zh": "slidev slides-zh.md",
     "build": "pnpm run build:en",
     "build:en": "slidev build slides.md --out dist --base /talk-about-monorepo",
