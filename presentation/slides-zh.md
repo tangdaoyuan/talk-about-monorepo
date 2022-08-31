@@ -3,6 +3,7 @@ theme: seriph
 background: /background.jpeg
 class: 'text-center'
 highlighter: shiki
+colorSchema: 'dark'
 src: ./src/zh/welcome.md
 ---
 
