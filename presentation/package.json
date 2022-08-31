@@ -15,9 +15,9 @@
   "scripts": {
     "dev": "slidev --remote",
     "dev:zh": "slidev slides-zh.md",
-    "build": "pnpm run build:en",
+    "build": "pnpm run build:zh",
     "build:en": "slidev build slides.md --out dist --base /talk-about-monorepo",
-    "build:zh": "slidev build slides-zh.md --out dist/zh --base /zh",
+    "build:zh": "slidev build slides-zh.md --out dist --base /talk-about-monorepo",
     "preview": "vite preview",
     "export": "slidev export --dark"
   },
