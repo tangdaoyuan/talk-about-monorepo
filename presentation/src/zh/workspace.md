@@ -10,13 +10,6 @@
 
 > We also refer to these packages being auto-symlinked during npm install as a single workspace, meaning it's a nested package within the current local file system that is explicitly defined in the package.json workspaces configuration.
 
-<!--
-1. 是一个通用术语，是npm cli提供的一个功能集合
-2. 能从root-level, root package中直接管理目录下的多个packages
-3. 避免手动使用npm link子package到node_modules下
-4. 提供了显示声明的配置方法
-
- -->
 
 <br/>
 
@@ -54,3 +47,12 @@
     }
   }
 </style>
+
+
+<!--
+1. 是一个通用术语，是npm cli提供的一个功能集合
+2. 能从root-level, root package中直接管理目录下的多个packages
+3. 避免手动使用npm link子package到node_modules下
+4. 提供了显示声明的配置方法
+
+ -->

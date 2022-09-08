@@ -1,3 +1,7 @@
+---
+title: Monorepo vs Monolith
+---
+
 # Monorepo vs Monolith
 
 <div v-click-hide>
@@ -65,3 +69,4 @@ But they force you to think through large-scale changes more and make some of th
   }
 }
 </style>
+
