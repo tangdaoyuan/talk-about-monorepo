@@ -1,5 +1,12 @@
 # @tedy-talk/presentation
 
+## 1.1.3
+
+### Patch Changes
+
+- 9c3a17b: fix(presentation): force dark mode
+- 29c353b: chore: switch to en build
+
 ## 1.1.2
 
 ### Patch Changes
